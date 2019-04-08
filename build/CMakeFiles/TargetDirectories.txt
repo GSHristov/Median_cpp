@@ -1,3 +1,4 @@
 /Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/rebuild_cache.dir
 /Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/edit_cache.dir
-/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/median.dir
+/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/test.dir
+/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/runUnitTest.dir
