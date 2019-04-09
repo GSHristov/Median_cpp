@@ -134,6 +134,33 @@ runUnitTest/fast:
 	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/build
 .PHONY : runUnitTest/fast
 
+list.o: list.cpp.o
+
+.PHONY : list.o
+
+# target to build an object file
+list.cpp.o:
+	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/list.cpp.o
+.PHONY : list.cpp.o
+
+list.i: list.cpp.i
+
+.PHONY : list.i
+
+# target to preprocess a source file
+list.cpp.i:
+	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/list.cpp.i
+.PHONY : list.cpp.i
+
+list.s: list.cpp.s
+
+.PHONY : list.s
+
+# target to generate assembly for a file
+list.cpp.s:
+	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/list.cpp.s
+.PHONY : list.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -161,6 +188,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+median.o: median.cpp.o
+
+.PHONY : median.o
+
+# target to build an object file
+median.cpp.o:
+	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/median.cpp.o
+.PHONY : median.cpp.o
+
+median.i: median.cpp.i
+
+.PHONY : median.i
+
+# target to preprocess a source file
+median.cpp.i:
+	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/median.cpp.i
+.PHONY : median.cpp.i
+
+median.s: median.cpp.s
+
+.PHONY : median.s
+
+# target to generate assembly for a file
+median.cpp.s:
+	$(MAKE) -f CMakeFiles/runUnitTest.dir/build.make CMakeFiles/runUnitTest.dir/median.cpp.s
+.PHONY : median.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -171,9 +225,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... test"
 	@echo "... runUnitTest"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... median.o"
+	@echo "... median.i"
+	@echo "... median.s"
 .PHONY : help
 
 

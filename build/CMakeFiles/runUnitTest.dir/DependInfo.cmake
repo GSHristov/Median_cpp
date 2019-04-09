@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/list.cpp" "/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/runUnitTest.dir/list.cpp.o"
   "/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/main.cpp" "/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/runUnitTest.dir/main.cpp.o"
+  "/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/median.cpp" "/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/build/CMakeFiles/runUnitTest.dir/median.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
@@ -13,6 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/local"
   "/usr/local/include"
   "/usr/local/include/gtest"
+  "../medianINCLUDE_DIRS"
   )
 
 # Targets to which this target links.

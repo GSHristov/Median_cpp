@@ -6,5 +6,5 @@ CXX_FLAGS =  -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local -I/usr/local/include -I/usr/local/include/gtest 
+CXX_INCLUDES = -I/usr/local -I/usr/local/include -I/usr/local/include/gtest -I/Users/georgihristov/Desktop/alkatraz_median_cpp/Median_cpp/medianINCLUDE_DIRS 
 
