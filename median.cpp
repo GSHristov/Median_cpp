@@ -32,7 +32,13 @@ void myMedian::printList() {
 }
 
 float myMedian::GetMedian() {
-    return this->pMedianNode->iData_m;
+    float returnValue;
+    returnValue = this->pMedianNode->iData_m;
+    
+    if (false == this->bIsItOdd) {
+        returnValue = (returnValue + this->pMedianNode->pNext->iData_m)/2;
+    }
+    return returnValue;
 }
 
 void myMedian::addValue(int newValue) {

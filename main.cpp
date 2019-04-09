@@ -10,7 +10,7 @@ using namespace std;
 int main(){
 	myMedian tmpMedian;
 
-	for (int i = 0; i < 20; i++) {
+	for (int i = 0; i < 23; i++) {
 		tmpMedian.addValue(rand() % 21);
 		//std::cout << "median calc is: " <<tmpMedian.GetMedian() << " for index " << i << "\n";
 	}
