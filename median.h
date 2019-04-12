@@ -8,7 +8,7 @@ class myMedian {
     private:
         float fMedian;
         bool bIsItOdd;
-
+        
         LinkedList* pList;
         Node* pMedianNode;
     public:

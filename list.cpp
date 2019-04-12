@@ -11,16 +11,5 @@ LinkedList::LinkedList() {
 }
 
 LinkedList::~LinkedList() {
-    std::cout << "list deleted";
-}
-
-void LinkedList::add(int newData) {
-    std::cout << "add value to podlist";
-    Node* newNode = new Node();
-
-    newNode->iData_m = newData;
-    newNode->pNext = this->pHead;
-    this->pHead = newNode;
-
-    this->iLenght_m++;
+    std::cout << "list deleted\n\n";
 }

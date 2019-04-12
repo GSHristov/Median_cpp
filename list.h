@@ -16,7 +16,5 @@ class LinkedList {
 
     LinkedList();
     ~LinkedList();
-
-    void add(int newData);
 };
 #endif
