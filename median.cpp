@@ -14,7 +14,7 @@ myMedian::myMedian() {
 }
 
 myMedian::~myMedian() {
-    this->pList->~LinkedList();
+    delete this->pList;
     std::cout << "Median deleted\n\n";
 }
 
