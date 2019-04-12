@@ -15,7 +15,7 @@ myMedian::myMedian() {
 
 myMedian::~myMedian() {
     this->pList->~LinkedList();
-    std::cout << "median deleted\n\n";
+    std::cout << "Median deleted\n\n";
 }
 
 void myMedian::printList() {
@@ -59,7 +59,7 @@ float myMedian::GetMedian() {
     } else if (this->pList->iLenght_m == 1) {
          returnValue = this->pList->pHead->iData_m;
      } else {
-        std::cout << "\nNo node, no median!\n";
+        std::cout << "\nNo Node - no Median!\n";
         returnValue = 0;
     }
     return returnValue;
@@ -78,7 +78,6 @@ void myMedian::addValue(int newValue) {
     if ( NULL == this->pList->pHead ) {
         newNode->pNext = this->pList->pHead;
         this->pList->pHead = newNode;
-        this->pMedianNode = this->pList->pHead;
     } else {
         while ( tmpHead->pNext != NULL && tmpHead->pNext->iData_m < newNode->iData_m ) {
             tmpHead = tmpHead->pNext;

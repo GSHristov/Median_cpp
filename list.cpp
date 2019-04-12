@@ -11,5 +11,19 @@ LinkedList::LinkedList() {
 }
 
 LinkedList::~LinkedList() {
-    std::cout << "list deleted\n\n";
+    Node* tmpNode;
+    Node* tmpNext;
+    int tmpNodeNum = 0;
+    tmpNode = this->pHead;
+
+    if (NULL != tmpNode) {
+        do {
+            tmpNodeNum++;
+            tmpNext = tmpNode->pNext;
+            delete tmpNode;
+            tmpNode = tmpNext;
+        } while( tmpNode != NULL );
+        std::cout << "Nodes deleted: " << tmpNodeNum << "\n";
+    }
+    std::cout << "List deleted\n";
 }
